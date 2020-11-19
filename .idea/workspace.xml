@@ -19,15 +19,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="515a59fb-4f51-4a1e-aef3-0e586095262c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../karaf-rest-example/karaf-rest-example-blueprint/src/main/resources/OSGI-INF/blueprint/rest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../karaf-rest-example/karaf-rest-example-blueprint/src/main/resources/OSGI-INF/blueprint/rest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-api/src/main/java/org/apache/karaf/examples/scr/api/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-provider/src/main/java/org/apache/karaf/examples/scr/provider/MyBusinessDelegateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-api/src/main/java/org/apache/karaf/examples/scr/api/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-api/src/main/java/org/apache/karaf/examples/scr/api/MyBusinessDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-client/src/main/java/org/apache/karaf/examples/scr/client/ConsoleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-client/src/main/java/org/apache/karaf/examples/scr/client/ConsoleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-features/src/main/feature/feature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-features/src/main/feature/feature.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../karaf-scr-example/karaf-scr-example-provider/src/main/java/org/apache/karaf/examples/scr/provider/BookingServiceMemoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-business-delegate/my-business-delegate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-commands/my-commands.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-features/my-features.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-service/my-service.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -65,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../karaf-scr-example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,13 +73,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605720122401</updated>
       <workItem from="1605720123438" duration="13056000" />
+      <workItem from="1605807106764" duration="461000" />
     </task>
     <servers />
   </component>
@@ -110,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="819" y="298" key="#com.intellij.ide.util.MemberChooser" timestamp="1605723090342">
