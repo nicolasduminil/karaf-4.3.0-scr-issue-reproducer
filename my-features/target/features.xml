@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="my-features" xmlns="http://karaf.apache.org/xmlns/features/v1.6.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.6.0">
+  <repository>mvn:org.apache.cxf.karaf/apache-cxf/3.4.0/xml/features</repository>
+  <feature name="my-business-delegate" version="1.0-SNAPSHOT">
+    <feature version="4.3.0" prerequisite="true">scr</feature>
+    <bundle>mvn:org.example/my-business-delegate/1.0-SNAPSHOT</bundle>
+  </feature>
+  <feature name="my-service" version="1.0-SNAPSHOT">
+    <feature>my-business-delegate</feature>
+    <feature version="4.3.0" prerequisite="true">scr</feature>
+    <feature version="7.3.9">http</feature>
+    <feature version="3.4.0">cxf-jaxrs</feature>
+    <bundle>mvn:com.fasterxml.jackson.core/jackson-core/2.11.3</bundle>
+    <bundle>mvn:com.fasterxml.jackson.core/jackson-annotations/2.11.3</bundle>
+    <bundle>mvn:com.fasterxml.jackson.core/jackson-databind/2.11.3</bundle>
+    <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.11.3</bundle>
+    <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.11.3</bundle>
+    <bundle>mvn:org.example/my-service/1.0-SNAPSHOT</bundle>
+  </feature>
+  <feature name="my-commands" version="1.0-SNAPSHOT">
+    <bundle>mvn:org.example/my-commands/1.0-SNAPSHOT</bundle>
+  </feature>
+</features>

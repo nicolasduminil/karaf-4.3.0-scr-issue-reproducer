@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="my-features" xmlns="http://karaf.apache.org/xmlns/features/v1.6.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.6.0">
+  <repository>mvn:org.apache.cxf.karaf/apache-cxf/${cxf.version}/xml/features</repository>
+  <feature name="my-business-delegate" version="${project.version}">
+    <feature version="${karaf.version}" prerequisite="true">scr</feature>
+    <bundle>mvn:org.example/my-business-delegate/${project.version}</bundle>
+  </feature>
+  <feature name="my-service" version="${project.version}">
+    <feature>my-business-delegate</feature>
+    <feature version="${karaf.version}" prerequisite="true">scr</feature>
+    <feature version="${http.version}">http</feature>
+    <feature version="${cxf.version}">cxf-jaxrs</feature>
+    <bundle>mvn:com.fasterxml.jackson.core/jackson-core/${jackson.version}</bundle>
+    <bundle>mvn:com.fasterxml.jackson.core/jackson-annotations/${jackson.version}</bundle>
+    <bundle>mvn:com.fasterxml.jackson.core/jackson-databind/${jackson.version}</bundle>
+    <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/${jackson.version}</bundle>
+    <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/${jackson.version}</bundle>
+    <bundle>mvn:org.example/my-service/${project.version}</bundle>
+  </feature>
+  <feature name="my-commands" version="${project.version}">
+    <bundle>mvn:org.example/my-commands/${project.version}</bundle>
+  </feature>
+</features>
