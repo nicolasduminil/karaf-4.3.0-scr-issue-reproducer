@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>my-features</artifactId>
   <packaging>pom</packaging>
-  <name>Test SCR Karaf 4.3.0 :: The business delegate module</name>
+  <name>Test SCR Karaf 4.3.0 :: The features module</name>
   <build>
     <finalName>${project.artifactId}</finalName>
     <resources>

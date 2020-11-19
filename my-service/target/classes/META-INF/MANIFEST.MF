@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1605804891213
+Bnd-LastModified: 1605807788754
 Build-Jdk-Spec: 11
 Bundle-ManifestVersion: 2
 Bundle-Name: Test SCR Karaf 4.3.0 :: The service module

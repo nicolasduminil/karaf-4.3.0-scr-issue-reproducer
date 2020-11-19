@@ -19,15 +19,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="515a59fb-4f51-4a1e-aef3-0e586095262c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-business-delegate/my-business-delegate.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-commands/my-commands.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-features/my-features.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-service/my-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-business-delegate/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/my-business-delegate/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-business-delegate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/my-business-delegate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-business-delegate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-business-delegate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-commands/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/my-commands/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-commands/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/my-commands/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-commands/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-commands/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-features/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-features/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-service/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/my-service/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/my-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605720122401</updated>
       <workItem from="1605720123438" duration="13056000" />
-      <workItem from="1605807106764" duration="461000" />
+      <workItem from="1605807106764" duration="930000" />
     </task>
     <servers />
   </component>
