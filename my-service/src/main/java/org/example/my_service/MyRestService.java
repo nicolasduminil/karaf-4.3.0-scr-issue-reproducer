@@ -14,7 +14,7 @@ import javax.ws.rs.*;
 public class MyRestService implements MyService
 {
   @Reference
-  private MyBusinessDelegateImpl myBusinessDelegate;
+  private MyBusinessDelegate myBusinessDelegate;
 
   @Override
   @GET

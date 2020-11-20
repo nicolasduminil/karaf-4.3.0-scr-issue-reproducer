@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1605807788754
+Bnd-LastModified: 1605877551305
 Build-Jdk-Spec: 11
 Bundle-ManifestVersion: 2
 Bundle-Name: Test SCR Karaf 4.3.0 :: The service module
@@ -18,7 +18,7 @@ Provide-Capability: osgi.service;uses:="org.example.my_service";objectCl
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))",os
  gi.extender;filter:="(&(osgi.extender=osgi.component)(version>=1.3.0)(!
  (version>=2.0.0)))",osgi.service;effective:=active;filter:="(objectClas
- s=org.example.business_delegate.MyBusinessDelegateImpl)"
+ s=org.example.business_delegate.MyBusinessDelegate)"
 Service-Component: OSGI-INF/org.example.my_service.MyRestService.xml,OSG
  I-INF/org.example.my_service.MyScrService.xml
 Tool: Bnd-5.1.1.202006162103

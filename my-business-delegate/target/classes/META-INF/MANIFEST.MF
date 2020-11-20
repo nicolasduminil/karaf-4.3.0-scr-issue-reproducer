@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1605807788196
+Bnd-LastModified: 1605877550770
 Build-Jdk-Spec: 11
 Bundle-ManifestVersion: 2
 Bundle-Name: Test SCR Karaf 4.3.0 :: The business delegate module
